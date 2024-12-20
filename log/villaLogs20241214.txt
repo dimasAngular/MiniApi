@@ -1,0 +1,565 @@
+2024-12-14 16:43:48.866 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-14 16:43:49.014 +03:00 [DBG] Hosting starting
+2024-12-14 16:43:49.139 +03:00 [INF] Now listening on: https://localhost:7108
+2024-12-14 16:43:49.139 +03:00 [INF] Now listening on: http://localhost:5161
+2024-12-14 16:43:49.140 +03:00 [DBG] Loaded hosting startup assembly WebApplication1
+2024-12-14 16:43:49.140 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-14 16:43:49.140 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-14 16:43:49.140 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-14 16:43:49.275 +03:00 [DBG] Connection id "0HN8S8LBECPQG" received FIN.
+2024-12-14 16:43:49.286 +03:00 [DBG] Connection id "0HN8S8LBECPQH" received FIN.
+2024-12-14 16:43:49.305 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-14 16:43:49.306 +03:00 [INF] Hosting environment: Development
+2024-12-14 16:43:49.306 +03:00 [INF] Content root path: C:\Users\диловар\source\repos\WebApplication1\WebApplication1
+2024-12-14 16:43:49.306 +03:00 [DBG] Hosting started
+2024-12-14 16:43:49.312 +03:00 [DBG] Connection id "0HN8S8LBECPQG" accepted.
+2024-12-14 16:43:49.312 +03:00 [DBG] Connection id "0HN8S8LBECPQH" accepted.
+2024-12-14 16:43:49.313 +03:00 [DBG] Connection id "0HN8S8LBECPQG" started.
+2024-12-14 16:43:49.321 +03:00 [DBG] Connection id "0HN8S8LBECPQH" started.
+2024-12-14 16:43:49.324 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-14 16:43:49.324 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-14 16:43:49.375 +03:00 [DBG] Connection id "0HN8S8LBECPQG" stopped.
+2024-12-14 16:43:49.375 +03:00 [DBG] Connection id "0HN8S8LBECPQH" stopped.
+2024-12-14 16:43:49.381 +03:00 [DBG] Connection id "0HN8S8LBECPQH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-14 16:43:49.381 +03:00 [DBG] Connection id "0HN8S8LBECPQG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-14 16:43:49.468 +03:00 [DBG] Connection id "0HN8S8LBECPQI" accepted.
+2024-12-14 16:43:49.468 +03:00 [DBG] Connection id "0HN8S8LBECPQI" started.
+2024-12-14 16:43:49.536 +03:00 [DBG] Connection 0HN8S8LBECPQI established using the following protocol: "Tls12"
+2024-12-14 16:43:49.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/swagger/index.html - null null
+2024-12-14 16:43:50.156 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-14 16:43:50.194 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-14 16:43:50.195 +03:00 [DBG] Request did not match any endpoints
+2024-12-14 16:43:50.285 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-14 16:43:50.286 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-14 16:43:50.303 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-14 16:43:50.303 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-14 16:43:50.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/swagger/index.html - 200 null text/html;charset=utf-8 689.1816ms
+2024-12-14 16:43:50.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-14 16:43:50.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/_vs/browserLink - null null
+2024-12-14 16:43:50.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 7.5786ms
+2024-12-14 16:43:50.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.3694ms
+2024-12-14 16:43:50.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/swagger/v1/swagger.json - null null
+2024-12-14 16:43:50.573 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-14 16:43:50.573 +03:00 [DBG] Request did not match any endpoints
+2024-12-14 16:43:50.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.9089ms
+2024-12-14 16:44:01.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI - null null
+2024-12-14 16:44:01.041 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:44:01.045 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:44:01.045 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:44:01.063 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:01.088 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:44:01.121 +03:00 [INF] Route matched with {action = "GetVillas", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication1.Dto.VillaDTO]] GetVillas() on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:01.126 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:01.130 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:01.131 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:01.131 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:01.131 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:01.133 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:01.133 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:01.133 +03:00 [INF] Get Villas
+2024-12-14 16:44:01.135 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:01.136 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:01.137 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:01.137 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:01.137 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:01.137 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:01.138 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication1.Dto.VillaDTO, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-14 16:44:01.215 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1) in 79.6748ms
+2024-12-14 16:44:01.215 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:44:01.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI - 200 108 application/json; charset=utf-8 179.549ms
+2024-12-14 16:44:08.693 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7108/api/VillaAPI - application/json-patch+json 64
+2024-12-14 16:44:08.693 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:44:08.693 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:44:08.693 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:08.693 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:08.693 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:08.702 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApplication1.Dto.VillaDTO] CreateVilla(WebApplication1.Dto.VillaDTO) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:08.702 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:08.703 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:08.703 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:08.703 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:08.703 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:08.703 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:08.703 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:08.707 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:08.708 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' using the name '' in request data ...
+2024-12-14 16:44:08.709 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:08.709 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:08.775 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000B": started reading request body.
+2024-12-14 16:44:08.775 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000B": done reading request body.
+2024-12-14 16:44:08.888 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:08.888 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:08.888 +03:00 [DBG] Attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:08.954 +03:00 [DBG] Done attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:09.012 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:09.013 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:09.013 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:09.013 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:09.013 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:09.013 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:09.014 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:09.100 +03:00 [DBG] Found the endpoints ["WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)"] for address GetVilla(id=[3])
+2024-12-14 16:44:09.103 +03:00 [DBG] Successfully processed template api/VillaAPI/{id:int} for WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1) resulting in /api/VillaAPI/3 and 
+2024-12-14 16:44:09.117 +03:00 [DBG] Link generation succeeded for endpoints ["WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)"] with result /api/VillaAPI/3
+2024-12-14 16:44:09.130 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1) in 427.049ms
+2024-12-14 16:44:09.130 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:09.130 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7108/api/VillaAPI - 201 47 application/json; charset=utf-8 437.5093ms
+2024-12-14 16:44:14.334 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7108/api/VillaAPI - application/json-patch+json 64
+2024-12-14 16:44:14.334 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:44:14.334 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:44:14.334 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:14.334 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:14.334 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:14.334 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApplication1.Dto.VillaDTO] CreateVilla(WebApplication1.Dto.VillaDTO) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:14.334 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:14.334 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:14.334 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:14.334 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:14.334 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:14.334 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:14.334 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:14.334 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:14.335 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' using the name '' in request data ...
+2024-12-14 16:44:14.335 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:14.335 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:14.335 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000D": started reading request body.
+2024-12-14 16:44:14.335 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000D": done reading request body.
+2024-12-14 16:44:14.335 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:14.335 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:14.335 +03:00 [DBG] Attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:14.335 +03:00 [DBG] Done attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:14.336 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:14.336 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:14.336 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:14.336 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:14.336 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:14.336 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:14.336 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2024-12-14 16:44:14.344 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1) in 9.4988ms
+2024-12-14 16:44:14.344 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:14.344 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7108/api/VillaAPI - 400 40 application/json; charset=utf-8 10.3251ms
+2024-12-14 16:44:18.289 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7108/api/VillaAPI - application/json-patch+json 64
+2024-12-14 16:44:18.289 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:44:18.289 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:44:18.289 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:18.289 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:18.289 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:18.289 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApplication1.Dto.VillaDTO] CreateVilla(WebApplication1.Dto.VillaDTO) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:18.289 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:18.289 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:18.289 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:18.289 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:18.289 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:18.289 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:18.289 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:18.289 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:18.289 +03:00 [DBG] Attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' using the name '' in request data ...
+2024-12-14 16:44:18.289 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:18.289 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:44:18.289 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000F": started reading request body.
+2024-12-14 16:44:18.289 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:0000000F": done reading request body.
+2024-12-14 16:44:18.289 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:18.289 +03:00 [DBG] Done attempting to bind parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:18.289 +03:00 [DBG] Attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:44:18.290 +03:00 [DBG] Done attempting to validate the bound parameter 'villaDTo' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:18.290 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:18.290 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:18.290 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:18.290 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:18.290 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:18.290 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:18.290 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2024-12-14 16:44:18.290 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1) in 0.7047ms
+2024-12-14 16:44:18.290 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.CreateVilla (WebApplication1)'
+2024-12-14 16:44:18.290 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7108/api/VillaAPI - 400 40 application/json; charset=utf-8 1.2538ms
+2024-12-14 16:44:33.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI/1 - null null
+2024-12-14 16:44:33.340 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:33.340 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:33.340 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:33.340 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:33.340 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:33.342 +03:00 [INF] Route matched with {action = "GetVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApplication1.Dto.VillaDTO] GetVilla(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:33.342 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:33.342 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:33.342 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:33.342 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:33.342 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:33.342 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:33.342 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:33.342 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:33.342 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:44:33.343 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:33.343 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:33.343 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:33.343 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:33.343 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:33.343 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:33.343 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:33.343 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:33.343 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:33.343 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:33.344 +03:00 [INF] Executing OkObjectResult, writing value of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:33.344 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1) in 1.8281ms
+2024-12-14 16:44:33.344 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:33.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI/1 - 200 52 application/json; charset=utf-8 3.843ms
+2024-12-14 16:44:34.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI/1 - null null
+2024-12-14 16:44:34.521 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:34.522 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:34.522 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:34.522 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:34.522 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:34.522 +03:00 [INF] Route matched with {action = "GetVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApplication1.Dto.VillaDTO] GetVilla(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:34.522 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:34.522 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:44:34.522 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:34.522 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:34.522 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:34.522 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:44:34.522 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:44:34.522 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:44:34.522 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:44:34.522 +03:00 [INF] Executing OkObjectResult, writing value of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:44:34.522 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1) in 0.5482ms
+2024-12-14 16:44:34.522 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVilla (WebApplication1)'
+2024-12-14 16:44:34.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI/1 - 200 52 application/json; charset=utf-8 1.1973ms
+2024-12-14 16:44:44.673 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7108/api/VillaAPI/1 - null null
+2024-12-14 16:44:44.673 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:44.673 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:44.674 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:44.674 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:44.674 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:44.675 +03:00 [INF] Route matched with {action = "DeleteVila", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteVila(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:44.675 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:44.675 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:44.675 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:44.675 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:44.675 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:44.675 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:44.675 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:44.675 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:44.675 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:44:44.675 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:44.675 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:44.675 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:44.675 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:44.680 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-14 16:44:44.680 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1) in 4.886ms
+2024-12-14 16:44:44.680 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:44.680 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7108/api/VillaAPI/1 - 204 null null 6.6451ms
+2024-12-14 16:44:46.438 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7108/api/VillaAPI/1 - null null
+2024-12-14 16:44:46.438 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:46.438 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1'
+2024-12-14 16:44:46.438 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:46.438 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:44:46.438 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:46.438 +03:00 [INF] Route matched with {action = "DeleteVila", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteVila(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:44:46.438 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:44:46.438 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:44:46.438 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:44:46.438 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:44:46.438 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:44:46.438 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:46.438 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:44:46.438 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:46.438 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:44:46.438 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:46.438 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:46.438 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:44:46.438 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:44:46.439 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:44:46.439 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-12-14 16:44:46.439 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-12-14 16:44:46.439 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-12-14 16:44:46.439 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-14 16:44:46.457 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1) in 19.3035ms
+2024-12-14 16:44:46.457 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:44:46.457 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7108/api/VillaAPI/1 - 404 162 application/problem+json; charset=utf-8 19.9251ms
+2024-12-14 16:45:04.193 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7108/api/VillaAPI/0 - null null
+2024-12-14 16:45:04.193 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-12-14 16:45:04.193 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-12-14 16:45:04.193 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:04.194 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:04.194 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:04.194 +03:00 [INF] Route matched with {action = "DeleteVila", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteVila(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:04.194 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:04.194 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:04.194 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:04.194 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:04.194 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:04.194 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:04.194 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:04.194 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:04.194 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:45:04.194 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:04.194 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:04.194 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:04.194 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:04.194 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:45:04.194 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-12-14 16:45:04.194 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-12-14 16:45:04.194 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-12-14 16:45:04.194 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-14 16:45:04.195 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1) in 0.733ms
+2024-12-14 16:45:04.195 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:04.195 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7108/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 1.3431ms
+2024-12-14 16:45:17.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI - null null
+2024-12-14 16:45:17.491 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:45:17.491 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:45:17.491 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:17.491 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:17.491 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:17.491 +03:00 [INF] Route matched with {action = "GetVillas", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication1.Dto.VillaDTO]] GetVillas() on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:17.491 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:17.491 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:17.491 +03:00 [INF] Get Villas
+2024-12-14 16:45:17.491 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:45:17.491 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:45:17.491 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:45:17.491 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:45:17.491 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:45:17.491 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:45:17.491 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication1.Dto.VillaDTO, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-14 16:45:17.491 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1) in 0.4265ms
+2024-12-14 16:45:17.491 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:17.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI - 200 103 application/json; charset=utf-8 0.9986ms
+2024-12-14 16:45:29.148 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7108/api/VillaAPI/2 - null null
+2024-12-14 16:45:29.149 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/2'
+2024-12-14 16:45:29.149 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/2'
+2024-12-14 16:45:29.149 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:29.149 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:29.149 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:29.149 +03:00 [INF] Route matched with {action = "DeleteVila", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteVila(Int32) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:29.149 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:29.149 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:29.149 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:29.149 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:29.149 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:29.149 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:29.149 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:29.149 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:29.149 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:45:29.149 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:29.149 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:29.149 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:29.149 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:29.149 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-14 16:45:29.150 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1) in 0.3802ms
+2024-12-14 16:45:29.150 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.DeleteVila (WebApplication1)'
+2024-12-14 16:45:29.150 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7108/api/VillaAPI/2 - 204 null null 1.2788ms
+2024-12-14 16:45:38.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI - null null
+2024-12-14 16:45:38.215 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:45:38.215 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:45:38.215 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:38.216 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:38.216 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:38.216 +03:00 [INF] Route matched with {action = "GetVillas", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication1.Dto.VillaDTO]] GetVillas() on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:38.216 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:38.216 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:38.216 +03:00 [INF] Get Villas
+2024-12-14 16:45:38.216 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:45:38.216 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:45:38.216 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:45:38.216 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:45:38.216 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:45:38.216 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:45:38.217 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication1.Dto.VillaDTO, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-14 16:45:38.217 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1) in 0.3562ms
+2024-12-14 16:45:38.217 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:45:38.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI - 200 49 application/json; charset=utf-8 1.5161ms
+2024-12-14 16:45:55.555 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7108/api/VillaAPI/3 - application/json-patch+json 64
+2024-12-14 16:45:55.555 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/3'
+2024-12-14 16:45:55.556 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/3'
+2024-12-14 16:45:55.556 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:55.556 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:55.556 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:55.557 +03:00 [INF] Route matched with {action = "UpdateVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, WebApplication1.Dto.VillaDTO) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:55.557 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:55.557 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:55.557 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:55.557 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:55.557 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:55.557 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:55.557 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:55.557 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:55.557 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:45:55.557 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:55.557 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:55.557 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:55.557 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:55.557 +03:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:45:55.557 +03:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' using the name '' in request data ...
+2024-12-14 16:45:55.557 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:45:55.557 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:45:55.557 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000021": started reading request body.
+2024-12-14 16:45:55.557 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000021": done reading request body.
+2024-12-14 16:45:55.561 +03:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:55.561 +03:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:55.561 +03:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:45:55.561 +03:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:55.562 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-14 16:45:55.562 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1) in 4.8138ms
+2024-12-14 16:45:55.562 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:55.562 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7108/api/VillaAPI/3 - 204 null null 6.5697ms
+2024-12-14 16:45:56.921 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7108/api/VillaAPI/3 - application/json-patch+json 64
+2024-12-14 16:45:56.921 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/3'
+2024-12-14 16:45:56.921 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/3'
+2024-12-14 16:45:56.921 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:56.921 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:45:56.921 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:56.921 +03:00 [INF] Route matched with {action = "UpdateVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateVilla(Int32, WebApplication1.Dto.VillaDTO) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:45:56.921 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:45:56.921 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:45:56.921 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:45:56.921 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:45:56.921 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:45:56.921 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:56.921 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:45:56.921 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:45:56.921 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' using the name '' in request data ...
+2024-12-14 16:45:56.921 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000023": started reading request body.
+2024-12-14 16:45:56.921 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000023": done reading request body.
+2024-12-14 16:45:56.921 +03:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Done attempting to bind parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:56.921 +03:00 [DBG] Attempting to validate the bound parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO' ...
+2024-12-14 16:45:56.922 +03:00 [DBG] Done attempting to validate the bound parameter 'villaDTO' of type 'WebApplication1.Dto.VillaDTO'.
+2024-12-14 16:45:56.922 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-14 16:45:56.922 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1) in 0.5266ms
+2024-12-14 16:45:56.922 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.UpdateVilla (WebApplication1)'
+2024-12-14 16:45:56.922 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7108/api/VillaAPI/3 - 204 null null 1.0874ms
+2024-12-14 16:46:03.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7108/api/VillaAPI - null null
+2024-12-14 16:46:03.546 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-12-14 16:46:03.546 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-12-14 16:46:03.546 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:46:03.546 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:46:03.546 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:46:03.546 +03:00 [INF] Route matched with {action = "GetVillas", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication1.Dto.VillaDTO]] GetVillas() on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:46:03.546 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:03.546 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:03.546 +03:00 [INF] Get Villas
+2024-12-14 16:46:03.546 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:46:03.546 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-14 16:46:03.546 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-14 16:46:03.546 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:46:03.546 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:46:03.546 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:46:03.546 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication1.Dto.VillaDTO, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-14 16:46:03.546 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1) in 0.3374ms
+2024-12-14 16:46:03.546 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.GetVillas (WebApplication1)'
+2024-12-14 16:46:03.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7108/api/VillaAPI - 200 49 application/json; charset=utf-8 0.8013ms
+2024-12-14 16:46:26.983 +03:00 [INF] Request starting HTTP/2 PATCH https://localhost:7108/api/VillaAPI/3 - application/json-patch+json 121
+2024-12-14 16:46:26.983 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/3'
+2024-12-14 16:46:26.983 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/3'
+2024-12-14 16:46:26.983 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:26.983 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:46:26.983 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:26.984 +03:00 [INF] Route matched with {action = "UpdatePartialVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdatePartialVilla(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:46:26.984 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:46:26.984 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:46:26.984 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:46:26.984 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:46:26.984 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:46:26.984 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:26.984 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:26.984 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:46:26.984 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:46:26.984 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:26.985 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:26.985 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:46:26.985 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:26.985 +03:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' ...
+2024-12-14 16:46:26.985 +03:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' using the name '' in request data ...
+2024-12-14 16:46:26.985 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:46:26.986 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000027": started reading request body.
+2024-12-14 16:46:26.986 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000027": done reading request body.
+2024-12-14 16:46:27.043 +03:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:27.043 +03:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:27.043 +03:00 [DBG] Attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' ...
+2024-12-14 16:46:27.043 +03:00 [DBG] Done attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:27.061 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:46:27.061 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-12-14 16:46:27.061 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:46:27.061 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:46:27.061 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:46:27.061 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2024-12-14 16:46:27.061 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1) in 76.4807ms
+2024-12-14 16:46:27.061 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:27.061 +03:00 [INF] Request finished HTTP/2 PATCH https://localhost:7108/api/VillaAPI/3 - 400 54 application/json; charset=utf-8 78.2035ms
+2024-12-14 16:46:28.600 +03:00 [INF] Request starting HTTP/2 PATCH https://localhost:7108/api/VillaAPI/3 - application/json-patch+json 121
+2024-12-14 16:46:28.601 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/3'
+2024-12-14 16:46:28.601 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/3'
+2024-12-14 16:46:28.601 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:28.601 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-14 16:46:28.601 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:28.601 +03:00 [INF] Route matched with {action = "UpdatePartialVilla", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdatePartialVilla(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]) on controller WebApplication1.Controllers.ValuesController (WebApplication1).
+2024-12-14 16:46:28.601 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-14 16:46:28.601 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-14 16:46:28.601 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-14 16:46:28.601 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-14 16:46:28.601 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-14 16:46:28.601 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:28.601 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.ValuesController (WebApplication1)
+2024-12-14 16:46:28.601 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:46:28.601 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-14 16:46:28.601 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:28.601 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:28.601 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-14 16:46:28.601 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-14 16:46:28.601 +03:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' ...
+2024-12-14 16:46:28.601 +03:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' using the name '' in request data ...
+2024-12-14 16:46:28.601 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-12-14 16:46:28.601 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000029": started reading request body.
+2024-12-14 16:46:28.601 +03:00 [DBG] Connection id "0HN8S8LBECPQI", Request id "0HN8S8LBECPQI:00000029": done reading request body.
+2024-12-14 16:46:28.602 +03:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:28.602 +03:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:28.602 +03:00 [DBG] Attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]' ...
+2024-12-14 16:46:28.602 +03:00 [DBG] Done attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[WebApplication1.Dto.VillaDTO]'.
+2024-12-14 16:46:28.602 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-12-14 16:46:28.602 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-12-14 16:46:28.602 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-14 16:46:28.602 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-14 16:46:28.602 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-14 16:46:28.602 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2024-12-14 16:46:28.602 +03:00 [INF] Executed action WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1) in 1.126ms
+2024-12-14 16:46:28.602 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.ValuesController.UpdatePartialVilla (WebApplication1)'
+2024-12-14 16:46:28.602 +03:00 [INF] Request finished HTTP/2 PATCH https://localhost:7108/api/VillaAPI/3 - 400 54 application/json; charset=utf-8 1.825ms
